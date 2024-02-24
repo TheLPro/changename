@@ -1,0 +1,15 @@
+name: NameChanger
+version: '${project.version}'
+main: studio.thelpro.namechanger.NameChanger
+api-version: '1.20'
+commands:
+  changename:
+    description: Change your name
+    permission: cn.use
+permissions:
+  cn.use:
+    default: true
+    description: Use the plugin
+  cn.admin:
+    default: op
+    description: Reload the pluign
